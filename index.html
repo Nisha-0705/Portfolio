@@ -1010,6 +1010,22 @@
           <a href="https://nisha-0705.github.io/DrumKit/" target="_blank" class="project-link">View Live →</a>
         </div>
       </div>
+          <div class="project-card">
+        <div class="project-image">🍿</div>
+        <div class="project-content">
+          <h3>Movie Search Website</h3>
+          <p>Build a platform with HTML,CSS3,JS,Bootstrap for movie watchers to search and personalise their list.</p>
+          <a href="https://nisha-0705.github.io/Movie-Search-Website/" target="_blank" class="project-link">View Live →</a>
+        </div>
+      </div>
+          <div class="project-card">
+        <div class="project-image">🏙️</div>
+        <div class="project-content">
+          <h3>Your Favorite City Information</h3>
+          <p>  To design an informative and visually appealing website that introduces Mumbai’s history, culture, and identity.The project covers static web pages built using HTML and CSS, focusing on layout and presentation. </p>
+          <a href="https://rococo-griffin-40e1b3.netlify.app/" target="_blank" class="project-link">View Live →</a>
+        </div>
+      </div>
         
     </div>
   </section>
@@ -1042,7 +1058,7 @@
   </footer>
 
   <script>
-    // Smooth scrolling
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -1052,8 +1068,6 @@
         }
       });
     });
-
-    // Mobile menu toggle
     function toggleMenu() {
       document.getElementById('navLinks').classList.toggle('active');
     }
@@ -1062,7 +1076,6 @@
       document.getElementById('navLinks').classList.remove('active');
     }
 
-    // Navbar scroll effect
     const navbar = document.getElementById('navbar');
     let lastScroll = 0;
 
@@ -1085,8 +1098,6 @@
       
       lastScroll = currentScroll;
     });
-
-    // Scroll reveal animation
     const reveals = document.querySelectorAll('.reveal');
     
     const revealObserver = new IntersectionObserver((entries) => {
@@ -1104,7 +1115,6 @@
       revealObserver.observe(reveal);
     });
 
-    // Close mobile menu when clicking outside
     document.addEventListener('click', (e) => {
       const navLinks = document.getElementById('navLinks');
       const menuBtn = document.querySelector('.mobile-menu-btn');
@@ -1114,7 +1124,6 @@
       }
     });
 
-    // Parallax effect for floating shapes
     document.addEventListener('mousemove', (e) => {
       const shapes = document.querySelectorAll('.shape');
       const x = e.clientX / window.innerWidth;
@@ -1128,5 +1137,3 @@
   </script>
 </body>
 </html>
- 
-
